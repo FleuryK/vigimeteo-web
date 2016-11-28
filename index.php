@@ -1,5 +1,5 @@
 <?php
-$file_xml = simplexml_load_file("../carte_vigilance_meteo.xml");	// À adapter selon ou est situé votre fichier XML
+$file_xml = simplexml_load_file("../carte_vigilance_meteo.xml");	// À adapter selon où est situé votre fichier XML
 
 $dept_cotes = array('cote_06', 'cote_11', 'cote_13', 'cote_14', 'cote_17', 'cote_22', 'cote_29', 'cote_2A', 'cote_2B', 'cote_30', 'cote_33', 'cote_34',
 'cote_35', 'cote_40', 'cote_44', 'cote_50', 'cote_56', 'cote_59', 'cote_62', 'cote_64', 'cote_66', 'cote_76', 'cote_80', 'cote_83', 'cote_85');
@@ -26,7 +26,6 @@ $dept = array('dep_01', 'dep_02', 'dep_03', 'dep_04', 'dep_05', 'dep_06', 'dep_0
 		<title>Vigilance Météo Côtière &amp; Département</title>
 
 		<!-- Bootstrap core CSS -->
-		<!-- <link href="//getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet"> -->
 		<link href="//bootswatch.com/superhero/bootstrap.min.css" rel="stylesheet">
 
 		<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
